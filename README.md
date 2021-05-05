@@ -20,12 +20,12 @@ python3 run.py // python run.py si tienes anaconda
 /imagen/webapi/id_frontal
 /imagen/webapi/id_anverso
 ```
-queryparams : id -> numero de cedula
+queryparams : id -> id number
 
 body  : images[] -> imagen
 
 ### Respuestas
 ```bash
-200 -> imagen está bien, se subió a s3
-400 -> imagen no valida ya sea por mucho brillo o mal tomada, no se sube a s3
+200 -> OK
+400 -> image did not pass requirements
 ```
