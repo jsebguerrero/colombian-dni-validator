@@ -1,6 +1,6 @@
 # About
 
-Imagen es el servicio destinado a revisar cédulas de ciudadanía y subir fotos a s3
+Imagen is a web service designed to identify Colombian ID photos
 
 ## Installation
 
